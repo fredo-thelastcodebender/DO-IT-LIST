@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
   </head>
   <body>
-    
+
     <nav>
       <input type="checkbox" id="check">
       <label for="check">
@@ -18,23 +18,23 @@
         <i class="fa-solid fa-times" id="cancel"></i>
       </label>
          <a href="index.html"><img src="cover.png" alt="" class="logo"></a>
-      <ul>
-    <li>
+    <ul>
+      <li>
         <a href="">For Teams</a>
-     </li>
+      </li>
 
-     <li>
+      <li>
         <a href="">Pricing</a>
-     </li>
+      </li>
 
-     <li>
+      <li>
        <a href="about.html">About</a>
-     </li>
+      </li>
 
       <li>
         <a href="">My Account</a>
       </li>
-  </ul>
+    </ul>
 
     </nav>
 
@@ -62,9 +62,11 @@
 
 
   <div class="doit-container">
-    <div class="doit-input">
-        <input type="text" class="entered-list" placeholder="Enter New Task">
-        <button class="doit-bttn" type="submit" >Do-It</button>
+      <div class="doit-input">
+        <input type="text" class="enter-list" placeholder="Enter New Task">
+        <button class="doit-bttn" type="submit" onclick="addTask()" >Do-It</button>
+		    <ul id="taskList"></ul>
+      </div>
   </div>
 
   </div>
